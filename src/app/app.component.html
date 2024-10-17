@@ -1,4 +1,6 @@
-<h1>{{fullName }}</h1> 
-<input type ="text" [(ngModel)]="fullName">
-<h1>{{getName()}}</h1>
+<!-- <h1>{{fullName }}</h1> 
+<input type ="text" [(ngModel)]="fullName">  two way data binding concept
+<h1>{{getName()}}</h1>     method of component calling in component.html --> 
+<h1> clicked {{clickCount}} times</h1><!-- initially clicked  (clickCount)x times is set to zero-->     
+<button (click)="clickMe()">click me!</button><!-- to make user click creating a button with event listener called click -->
  

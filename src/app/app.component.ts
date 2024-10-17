@@ -12,9 +12,15 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   //title = 'homes';
-  fullName = "testing input" 
+  //fullName = "testing input" 
 
-  getName(){
+  /*getName(){        String interpolation concept for method
     return "me";
+  } */
+
+  clickCount = 0;
+
+  clickMe(){
+    this.clickCount++; 
   }
 }
